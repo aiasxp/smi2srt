@@ -4,7 +4,7 @@ smi 자막 srt 변환 스크립트
 [참고사이트](http://naclepark.blogspot.com/2015/03/smi2srt-converter-for-nas.html)
 
 ### 설명
-- **targetdir** 로 설정한 디렉토리 (하위폴더 포함)의 smi 파일을 검색 후 같은 폴더에 srt 자막파일 생성해 주는 스크립트입니다.
+- **targetdir** 로 설정한 디렉토리 (하위폴더 포함)의 smi 파일을 검색 후 같은 폴더에 srt 자막파일 생성해 주는 스크립트
 - srt 자막파일 2개 생성: *.srt, *.kor.srt
 
 ### 사용법

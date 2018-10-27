@@ -5,9 +5,11 @@ echo "-----------------------------------------------------"
 echo  Start $DAT
 echo "-----------------------------------------------------"
 
-targetdir='/volume1/inbox/download/_smi2srt_'
-smidir='/volume1/docker/python/smi2srt'
+targetdir='/volume1/_inbox_/download/manual'
+# targetdir2='/volume1/inbox/download/_smi2srt_'
+smidir='/volume1/docker/script'
 
+# find $targetdir $targetdir2 -name "*.smi" | grep -v @eaDir | while read oldfile
 find $targetdir $targetdir2 -name "*.smi" | grep -v @eaDir | while read oldfile
 do
 	newfile=${oldfile%smi}srt
